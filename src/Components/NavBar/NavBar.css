@@ -1,0 +1,71 @@
+.navbar,.dropdown-menu
+{
+    background-color: #224433;
+}
+
+.navbar a
+{
+    color: white !important;
+}
+
+.navbar a:hover
+{
+    color: #b1fc03 !important;
+    transition: .5s !important;
+}
+
+nav a.active
+{
+  background-color: white;
+  color: #224433 !important;
+  transition: .5s;
+}
+
+.btn-close {
+    filter: brightness(0) invert(1) !important; /* Forces white color for the icon */
+    background-color: transparent !important; /* Transparent background */
+    border: 2px solid white !important; /* White border */
+    border-radius: 50%; /* Rounded button */
+}
+
+
+.navbar-toggler {
+    border: none !important; /* Remove border */
+    background-color: transparent !important; /* Ensure no background */
+    outline: none !important; /* Remove focus outline */
+    box-shadow: none !important; /* Remove shadow on focus */
+}
+
+.navbar-toggler:focus, 
+.navbar-toggler:active {
+    outline: none !important; /* Prevent focus outline */
+    box-shadow: none !important; /* Remove any active shadow */
+    background-color: transparent !important; /* No background on click */
+}
+
+
+.navbar-toggler-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px; /* Adjust width as needed */
+    height: 20px; /* Height determines spacing between lines */
+    background: none; /* Remove background */
+    border: none; /* Remove any borders */
+}
+
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after,
+.navbar-toggler-icon div {
+    content: '';
+    display: block;
+    height: 2px; /* Line thickness */
+    width: 100%; /* Line width matches icon width */
+    background-color: white; /* Line color */
+    border-radius: 1px; /* Optional: Add slight rounding */
+}
+
+.offcanvas
+{
+    background-color:#3c2415;
+}

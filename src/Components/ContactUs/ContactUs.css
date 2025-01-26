@@ -1,0 +1,48 @@
+/* ContactForm.css */
+.contact-bg
+{
+    max-width: 400px;
+}
+
+.title-address,.contact-title
+{
+    color:#2274a5;
+}
+
+form
+{
+    max-width: 600px;
+}
+
+.input-box .field
+{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+}
+
+.input-box .mess
+{
+    height: 200px;
+    resize: none;
+}
+
+.standard-select
+{
+    height: 50px;
+}
+
+.contact-btn
+{
+    background-color: #224433;
+    color: white;
+}
+
+@media all and (max-width:465px)
+{
+    .contact
+    {
+        margin-left: 0px !important;
+    }
+}
+

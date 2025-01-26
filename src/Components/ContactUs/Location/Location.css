@@ -1,0 +1,13 @@
+@media all and (max-width:390px)
+{
+    .email,.text-mobile
+    {
+       font-size: 12px !important;
+    }
+}
+
+.email:hover
+{
+    text-decoration: underline !important;
+    color: green !important;
+}

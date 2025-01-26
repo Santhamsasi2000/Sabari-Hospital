@@ -1,0 +1,33 @@
+.about-img
+{
+    height: 480px;
+}
+
+@media  all and (max-width: 1050px)
+{
+    .about-img
+    {
+        height: 520px;
+    }
+}
+
+@media  all and (max-width: 500px)
+{
+    .about-img
+    {
+        height: 300px;
+    }
+}
+
+@media  all and (max-width: 400px)
+{
+    .about-img
+    {
+        height: 250px;
+    }
+}
+
+.doctors-list
+{
+   width: 300px;
+}

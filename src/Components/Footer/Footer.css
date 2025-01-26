@@ -1,0 +1,39 @@
+.footer
+{
+    background-color: #224433;
+    color: white;
+}
+
+.media-icons
+{
+    border-radius: 100px;
+    width: 40px;
+    height: 40px; 
+}
+
+.footer a
+{
+    color: white !important;
+}
+
+.media-icons .navcolor
+{
+    color:#224433 !important;
+}
+
+.footer .footer-Links:hover
+{
+    text-decoration: underline !important;
+}
+
+.media-icons:hover
+{
+    background-color:bisque !important;
+}
+
+.footer-title
+{
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+}

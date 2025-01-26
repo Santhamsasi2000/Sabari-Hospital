@@ -1,0 +1,30 @@
+.home-img
+{
+    height: 300px;
+}
+
+@media all and (max-width: 500px)
+{
+    .home-img
+    {
+       height: 250px;
+    }
+}
+@media all and (max-width: 400px)
+{
+    .home-img
+    {
+       height: 200px;
+    }
+}
+
+.border-img
+{
+    border-color: green !important;
+}
+
+.expertise-bg-img
+{
+    background-color: green !important;
+    background-color: var(--green-bg, green);
+}
