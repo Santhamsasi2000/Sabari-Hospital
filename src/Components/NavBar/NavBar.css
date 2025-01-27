@@ -1,4 +1,4 @@
-.navbar,.dropdown-menu
+.navbar,.dropdown-menu,.offcanvas
 {
     background-color: #224433;
 }
@@ -6,15 +6,17 @@
 .navbar a
 {
     color: white !important;
+    border-radius: 5px;
+    padding: 10px;
 }
 
-.navbar a:hover
+.navbar a:hover:not(.navbar-brand)
 {
     color: #b1fc03 !important;
     transition: .5s !important;
 }
 
-nav a.active
+nav a.active:not(.navbar-brand)
 {
   background-color: white;
   color: #224433 !important;
@@ -63,9 +65,4 @@ nav a.active
     width: 100%; /* Line width matches icon width */
     background-color: white; /* Line color */
     border-radius: 1px; /* Optional: Add slight rounding */
-}
-
-.offcanvas
-{
-    background-color:#3c2415;
 }

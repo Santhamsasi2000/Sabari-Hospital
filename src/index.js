@@ -11,14 +11,17 @@ import Expertise from "./Components/Home/Expertise/Expertise";
 import Why from "./Components/Home/Why/Why";
 import Timings from "./Components/ContactUs/Time/Timings";
 import AboutUs from "./Components/About/AboutUs";
-import NavBar3 from "./Components/NavBar/NavBar";
 import Obstetrics from "./Components/Maternity/Obstetrics/Obstetrics";
+import NavBar from "./Components/NavBar/NavBar";
+import Pediatrics from "./Components/ChildCare/Pediatrics/Pediatrics";
+import Neonatology from "./Components/ChildCare/Neonatology/Neonatology";
+import Laparoscopy from "./Components/Maternity/Laparoscopy/Laparoscopy";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <React.StrictMode>
-      <App/>
+      <Laparoscopy/>
     </React.StrictMode>
   </BrowserRouter>
 );
