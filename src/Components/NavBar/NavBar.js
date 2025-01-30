@@ -53,8 +53,16 @@ const NavBar = () => {
                             </ul>
                         </li>
                         {/* About */}
-                        <li className="nav-item">
-                            <NavLink to="/about" className="nav-link" aria-current="page">About</NavLink>
+                        <li className="nav-item dropdown">
+                            <a className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            About
+                            </a>
+                            <ul className="dropdown-menu">
+                                <li><NavLink to="/about" className="dropdown-item">About Us</NavLink></li>
+                                    <li><hr className="dropdown-divider"/></li>
+                                <li><NavLink to="/facilities" className="dropdown-item">Infrastructure</NavLink></li>
+                                    <li><hr className="dropdown-divider"/></li>
+                            </ul>
                         </li>
                         {/* Contact */}
                         <li className="nav-item">

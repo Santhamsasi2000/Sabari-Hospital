@@ -4,9 +4,12 @@ const Time = () => {
   return (
     <div>
        <p className='footer-title'>Opening Hours</p>
-       <p>We are available</p>
-       <p>24 Hours</p>
-       <p>Monday-Sunday</p>
+       <p className='text-decoration-underline mb-2'>Maternity</p>
+       <p className='mb-1'>9AM-6PM (Mon-Sat)</p>
+       <p>24/7 (Emergency)</p>
+       <p className='text-decoration-underline mb-2'>Children</p>
+       <p className='mb-1'>9AM-3PM (Mon-Sun)</p>
+       <p>6PM-9PM (Mon-Sun)</p>
     </div>
   )
 }

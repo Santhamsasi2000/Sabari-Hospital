@@ -1,11 +1,12 @@
 import Department from '../../Common/Department';
-import { DataInfertility } from './DataInfertility';
+import { DataInfertility, SudhaInfertility } from './DataInfertility';
 const Infertility = () => {
   return (
-    <section className='p-3'>
-        <p>Gynaecology: Caring for Mothers and Babies</p>
-        <p>Gynaecology is the medical field that focuses on the health of the female reproductive system, including the uterus, ovaries, and vagina. It involves diagnosing and treating conditions like menstrual issues, infertility, pregnancy care, and menopause. Gynaecologists also guide women on general reproductive health and wellness.</p>
-        <Department title="Our Services" data={DataInfertility}/>
+    <section className='p-3 p-sm-5'>
+        <p className='title'>Fertility Center – Helping you build your family</p>
+        <p>A Fertility Center is a medical facility that helps individuals and couples overcome fertility challenges to achieve pregnancy. It offers treatments like IVF, IUI, egg freezing, and reproductive health services with expert guidance and advanced technology.</p>
+        <Department title="Diagnosis and Treatment of infertility" data={DataInfertility}/>
+        <Department title="Collaboration with Sudha Fertility Center,Madurai." data={SudhaInfertility}/>
     </section>
   )
 }

@@ -5,11 +5,6 @@ export const DataGynae = [
         title:"General Gynaecology",
     },
     {
-        id:2,
-        image:"/Images/Maternity/Obstetrics/Painless-Delivery.webp",
-        title:"Cancer Screening Clinic",
-    },
-    {
         id:3,
         image:"/Images/Maternity/Obstetrics/High-Risk.webp",
         title:"Well Women Clinic",
@@ -27,7 +22,7 @@ export const DataGynae = [
     {
         id: 7,
         image: "/Images/Maternity/Obstetrics/Fetal-Medicine.webp",
-        title: "Hysterectomy",
+        title: "Laproscopic Hysterectomy",
     },
     {
         id: 8,

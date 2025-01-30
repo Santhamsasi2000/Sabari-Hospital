@@ -8,7 +8,7 @@ export const SurgeryData = [
     {
         id: 2,
         image: "/Images/Child/Pediatrics/Surgery/Appendectomy.webp",
-        title: "Appendectomy",
+        title: "Appendicectomy",
         subTitle:"A surgical procedure to remove a child's appendix.",
     },
     {

@@ -10,8 +10,18 @@ body
 .title
 {
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 900;
   text-transform: uppercase;
   font-family: "Sora", serif;
+}
+
+.common-bg
+{
+  background-color: #deede2;
+}
+
+.justify-text
+{
+  text-align: justify;
 }

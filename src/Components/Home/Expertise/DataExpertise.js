@@ -1,7 +1,7 @@
 export const DataExpertise = [
     {
         id:1,
-        image:"/Images/Home/Expertise/Paedtrics.webp",
+        image:"/Images/Home/Expertise/Paedtrics -Sabari Hospital-Sivaganga.webp",
         title:"Pediatrics",
         subTitle:"The Medical Care of Babies, Children, and Teenagers",
         link:"/pediatrics",
@@ -9,7 +9,7 @@ export const DataExpertise = [
     },
     {
         id:2,
-        image:"/Images/Home/Expertise/Neonatologist.webp",
+        image:"/Images/Home/Expertise/Neonatologist -Sabari Hospital-Sivaganga.webp",
         title:"Neonatology",
         subTitle:"Special Care for Newborn Babies",
         link:"/neonatology",
@@ -17,18 +17,34 @@ export const DataExpertise = [
     },
     {
         id:3,
-        image:"/Images/Home/Expertise/Obstetrics.webp",
+        image:"/Images/Home/Expertise/Obstetrics -Sabari Hospital-Sivaganga.webp",
         title:"Obstetrics",
         subTitle:"The Medical Care of Pregnancy, Childbirth, and Mother’s Health",
-        link:"/obstetrics",
+        link:"/pregnancy",
         btnTitle:"Know More",
     },
     {
         id:4,
-        image:"/Images/Home/Expertise/Gynecology.webp",
+        image:"/Images/Home/Expertise/Gynecology -Sabari Hospital-Sivaganga.webp",
         title:"Gynecology",
         subTitle:"Women's health, especially the reproductive system",
-        link:"/gynecology",
+        link:"/women-health",
+        btnTitle:"Know More",
+    },
+    {
+        id:5,
+        image:"/Images/Home/Expertise/Laproscopy -Sabari Hospital-Sivaganga.webp",
+        title:"Laparoscopy",
+        subTitle:"A Simple Guide to Keyhole Surgery",
+        link:"/laparoscopy",
+        btnTitle:"Know More",
+    },
+    {
+        id:6,
+        image:"/Images/Home/Expertise/Fertility Center -Sabari Hospital-Sivaganga.webp",
+        title:"Fertility Center",
+        subTitle:"Helping you build your family",
+        link:"/infertility",
         btnTitle:"Know More",
     },
 ];

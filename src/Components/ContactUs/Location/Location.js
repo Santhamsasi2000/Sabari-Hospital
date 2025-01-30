@@ -6,10 +6,13 @@ import { LuPhoneCall } from "react-icons/lu";
 const name = "Sabari Hospital"
 const place = "96, State Highway 33, 4/106, Justice rajasekaran road, Aranmanai Vaasal, Sivaganga, Tamil Nadu 630561";
 const placeUrl = "https://www.google.com/maps?s=web&lqi=ChlzYWJhcmkgaG9zcGl0YWwgc2l2YWdhbmdhSOyI1eHxqoCACFotEAAQARgAGAEYAiIZc2FiYXJpIGhvc3BpdGFsIHNpdmFnYW5nYSoGCAIQABABkgEIaG9zcGl0YWyqAU0KCC9tLzBocG5yEAEyIBABIhyyZjJWDF-ROwNHEfOkh7tpMlSnLsdI9Varqux3Mh0QAiIZc2FiYXJpIGhvc3BpdGFsIHNpdmFnYW5nYQ&vet=12ahUKEwj71q_Yt_yKAxWbs1YBHV54ADgQ1YkKegQILBAB..i&cs=0&um=1&ie=UTF-8&fb=1&gl=in&sa=X&geocode=KTVinVbF-gA7MSyfq0AxIhSX&daddr=4/106+sabari+hospital+lane+justice+rajasekaran+street.+sivagangai630561";
-const email = "sabarihospital@gmail.com";
+const email = "sabarihospitalsivagangai@gmail.com";
 const mobiles = [
   {
     mobile:"04575 245 431"
+  },
+  {
+    mobile:"73057 95324"
   },
 ]
 const Location = () => {
@@ -41,21 +44,24 @@ const Location = () => {
             </a>
           </div>
           <div className="d-flex gap-3 align-items-center mb-4">
-            {
-              mobiles.map(({mobile})=>(
+            
                 <>
                  <i className="fs-3 border border-0 text-success bg-success bg-opacity-10 p-3 rounded">
               <LuPhoneCall />
             </i>
+            {
+              mobiles.map(({mobile})=>(
             <a
               href={`tel:${mobile}`}
               className="email text-secondary text-decoration-none fw-semibold"
             >
               {mobile}
             </a>
+            ))
+             }
                 </>
-              ))
-            }
+              
+           
           </div>
         </div>
     </section>

@@ -3,25 +3,19 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
-import About from "./Components/About/About";
-import Child from "./Components/ChildCare/Child";
-import Footer from "./Components/Footer/Footer";
+import ScrollToTop from "./Components/Common/ScrollToTop";
+import Facilities from "./Components/About/Facilities/Facilities";
 import ContactUs from "./Components/ContactUs/ContactUs";
-import Expertise from "./Components/Home/Expertise/Expertise";
-import Why from "./Components/Home/Why/Why";
-import Timings from "./Components/ContactUs/Time/Timings";
-import AboutUs from "./Components/About/AboutUs";
-import Obstetrics from "./Components/Maternity/Obstetrics/Obstetrics";
-import NavBar from "./Components/NavBar/NavBar";
-import Pediatrics from "./Components/ChildCare/Pediatrics/Pediatrics";
-import Neonatology from "./Components/ChildCare/Neonatology/Neonatology";
-import Laparoscopy from "./Components/Maternity/Laparoscopy/Laparoscopy";
+import Location from "./Components/ContactUs/Location/Location";
+import Infertility from "./Components/Maternity/Infertility/Infertility";
+import Gynaecology from "./Components/Maternity/Gynaecology/Gynaecology";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <React.StrictMode>
-      <Laparoscopy/>
+      <ScrollToTop/>
+      <App/>
     </React.StrictMode>
   </BrowserRouter>
 );

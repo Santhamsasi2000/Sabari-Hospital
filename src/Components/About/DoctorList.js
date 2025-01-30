@@ -13,6 +13,6 @@ export const DoctorList = [
         name:"Dr. S. Hemavathi",
         degree:"M.B.B.S., D.G.O., FMAS, FART",
         speaclist:"Consultant Obstetrician & Gynaecologist",
-        position:"Managing Director"
+        position:"Laproscopy and Infertility Specialist"
     },
 ];

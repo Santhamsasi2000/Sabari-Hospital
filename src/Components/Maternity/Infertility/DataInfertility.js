@@ -1,43 +1,54 @@
 export const DataInfertility = [
     {
         id:1,
-        image:"/Images/Maternity/Obstetrics/Normal-Delivery.webp",
-        title:"Infertility Treatment",
+        image:"/Images/Maternity/Infertility/IVI Treatment Infertility Sabari Hospital.webp",
+        title:"IVI Treatment",
+        subTitle:"(Intravaginal insemination) A fertility treatment  involves introducing sperm into the uterus.",
     },
     {
         id:2,
-        image:"/Images/Maternity/Obstetrics/Painless-Delivery.webp",
-        title:"Infertility Clinic",
+        image:"/Images/Maternity/Infertility/Ovulation Induction Infertility Sabari Hospital.webp",
+        title:"Ovulation Induction",
+        subTitle:"A medical treatment that helps women who have trouble ovulating or releasing eggs."
     },
     {
         id:3,
-        image:"/Images/Maternity/Obstetrics/High-Risk.webp",
-        title:"IVF & Fertility",
+        image:"/Images/Maternity/Infertility/Hormonal Assessment Infertility Sabari Hospital.webp",
+        title:"Hormonal Assessment",
+        subTitle:"Hormone test,measures the levels of hormones in your body."
     },
     {
-        id: 6,
-        image: "/Images/Maternity/Obstetrics/Antenatal-Care.webp",
-        title: "IUI (Intrauterine Insemination)",
+        id:4,
+        image:"/Images/Maternity/Infertility/Minimally Invasive Surgery Infertility Sabari Hospital.webp",
+        title:"Minimally Invasive Surgery",
+        subTitle:"A type of surgery that uses small incisions and specialized instruments to perform an operation."
     },
     {
-        id: 9,
-        image: "/Images/Maternity/Obstetrics/LDRP.webp",
-        title: "Fertility Services - Ovulation",
+        id:5 ,
+        image:"/Images/Maternity/Infertility/Laparoscopic ovarian drilling (LOD) Infertility Sabari Hospital.webp",
+        title:"Laparoscopic ovarian drilling (LOD)",
+        subTitle:"A surgical procedure that can help with ovulation and pregnancy for women with polycystic ovary syndrome (PCOS)."
     },
     {
-        id: 10,
-        image: "/Images/Maternity/Obstetrics/Postpartum Care.webp",
-        title: "Fertility Services - Minimally Invasive",
+        id:5 ,
+        image:"/Images/Maternity/Infertility/Counseling Support Infertility Sabari Hospital.webp",
+        title:"Counseling and support",
+        subTitle:"Emotional support and guidance in infertility."
+    },
+];
+
+export const SudhaInfertility = [
+    {
+        id:1,
+        image:"/Images/Maternity/Infertility/Ovum-Pick-Up-Sabari-Hospital-Sivaganga.webp",
+        title:"Ovum pick up (OPU)",
+        subTitle:"A procedure to remove eggs from the ovaries."
     },
     {
-        id: 11,
-        image: "/Images/Maternity/Obstetrics/Caesarean.webp",
-        title: "Fertility Services - Surgery",
-    },
-    {
-        id: 12,
-        image: "/Images/Maternity/Obstetrics/Cervical Cerclage.webp",
-        title: "Infertility and Reproductive Health",
+        id:2,
+        image:"/Images/Maternity/Infertility/Embrayo-Transfer-Sabari-Hospital-Sivaganga.webp",
+        title:"Embryo Transfer",
+        subTitle:"A procedure to implant fertilized eggs into the uterus."
     },
 ];
 

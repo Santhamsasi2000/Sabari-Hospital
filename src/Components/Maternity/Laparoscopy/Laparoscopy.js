@@ -3,10 +3,10 @@ import { DataLap } from './DataLap';
 
 const Laparoscopy = () => {
   return (
-    <section className='p-3'>
-        <p>Gynaecology: Caring for Mothers and Babies</p>
-        <p>Gynaecology is the medical field that focuses on the health of the female reproductive system, including the uterus, ovaries, and vagina. It involves diagnosing and treating conditions like menstrual issues, infertility, pregnancy care, and menopause. Gynaecologists also guide women on general reproductive health and wellness.</p>
-        <Department title="Our Services" data={DataLap}/>
+    <section className='p-3 p-sm-5'>
+        <p className='title'>Laparoscopy: A Simple Guide to Keyhole Surgery</p>
+        <p>Laparoscopy is a minimally invasive surgical procedure that uses a small camera (laparoscope) to diagnose and treat conditions inside the abdomen or pelvis. It involves tiny cuts, causing less pain, faster recovery, and minimal scarring compared to traditional surgery.</p>
+        <Department title="Common Laparoscopic Surgical Procedures" data={DataLap}/>
     </section>
   )
 }

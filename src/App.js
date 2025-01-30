@@ -4,8 +4,6 @@ import "react-lazy-load-image-component/src/effects/blur.css";
 import "./App.css";
 import ScrollToTop from "./Components/Common/ScrollToTop";
 import Home from "./Components/Home/Home";
-import Child from "./Components/ChildCare/Child";
-import Fertitlity from "./Components/Maternity/Fertitlity";
 import About from "./Components/About/About";
 import ContactUs from "./Components/ContactUs/ContactUs";
 import Footer from "./Components/Footer/Footer";
@@ -19,12 +17,12 @@ import Laparoscopy from "./Components/Maternity/Laparoscopy/Laparoscopy";
 import Infertility from "./Components/Maternity/Infertility/Infertility";
 import Pediatrics from "./Components/ChildCare/Pediatrics/Pediatrics";
 import Neonatology from "./Components/ChildCare/Neonatology/Neonatology";
+import Facilities from "./Components/About/Facilities/Facilities";
 
 
 function App() {
   return (
     <>
-      <ScrollToTop />
       <Emergency/>
       <NavBar/>
       <Routes>
@@ -40,8 +38,10 @@ function App() {
         <Route path="/laparoscopy" element={<Laparoscopy/>} />
         <Route path="/infertility" element={<Infertility/>} />
 
-        <Route path="/maternity" element={<Obstetrics/>} />
+        {/* About */}
         <Route path="/about" element={<About />} />
+        <Route path="/facilities" element={<Facilities/>} />
+
         <Route path="/contact" element={<ContactUs />} />
       </Routes>
       <Footer />
