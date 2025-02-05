@@ -9,11 +9,11 @@ const para2 = "";
 const AboutUs = () => {
   return (
     <section>
-      <div className='row mb-5 gap-3 gap-md-0'>
-      <div className='col-md-6'>
+      <div className='row mb-5 gy-4'>
+      <div className='col-lg-6'>
         <LazyLoadImage src="/Images/About/About.webp" effect="blur" threshold={200} alt="No-Image" className="about-img w-100 rounded-3"/>
       </div>
-      <div className='col-md-6'>
+      <div className='col-lg-6'>
           <p className='fw-bold fs-4 text-uppercase mt-2 mt-md-0'>{title1}</p>
           <p className='lh-lg justify-text'>At Sabari Hospital, we have been dedicated to providing exceptional healthcare services since our establishment in <span className="fw-semibold">2012</span>. Over the years, we have become a trusted name in Sivaganga, known for our commitment to excellence in patient care and specialized medical treatments.</p>
           <p className='fw-bold fs-4 text-uppercase mt-2 mt-md-0'>{title2}</p>

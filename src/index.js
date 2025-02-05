@@ -5,17 +5,13 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 import ScrollToTop from "./Components/Common/ScrollToTop";
 import Facilities from "./Components/About/Facilities/Facilities";
-import ContactUs from "./Components/ContactUs/ContactUs";
-import Location from "./Components/ContactUs/Location/Location";
-import Infertility from "./Components/Maternity/Infertility/Infertility";
-import Gynaecology from "./Components/Maternity/Gynaecology/Gynaecology";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <React.StrictMode>
       <ScrollToTop/>
-      <App/>
+      <Facilities/>
     </React.StrictMode>
   </BrowserRouter>
 );
