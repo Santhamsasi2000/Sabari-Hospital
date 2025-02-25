@@ -10,10 +10,8 @@ const ContactUsForm = () => {
   const onSubmit = async (values, { resetForm, setSubmitting }) => {
     const formData = new FormData();
     Object.keys(values).forEach((key) => formData.append(key, values[key]));
-    // formData.append("access_key", "e34753a6-5eaa-4c7d-8105-09c412fe67a3");
-    formData.append("access_key", "2f288866-1d0a-4c43-ab4c-e4d63f60f7e6");
-
-    try {
+    formData.append("access_key", "e34753a6-5eaa-4c7d-8105-09c412fe67a3");
+  try {
       const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
         body: formData,

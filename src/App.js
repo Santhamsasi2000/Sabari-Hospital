@@ -8,15 +8,15 @@ import Footer from "./Components/Footer/Footer";
 // Blur Image
 import "react-lazy-load-image-component/src/effects/blur.css";
 import Emergency from "./Components/Header/Emergency";
-import Obstetrics from "./Components/Maternity/Obstetrics/Obstetrics";
-import Gynaecology from "./Components/Maternity/Gynaecology/Gynaecology";
-import Laparoscopy from "./Components/Maternity/Laparoscopy/Laparoscopy";
-import Infertility from "./Components/Maternity/Infertility/Infertility";
 import Pediatrics from "./Components/ChildCare/Pediatrics/Pediatrics";
 import Neonatology from "./Components/ChildCare/Neonatology/Neonatology";
-import Facilities from "./Components/About/Facilities/Facilities";
-import EasyNav from "./Components/NavBar/EasyNav";
+import Gynaecology from "./Components/Maternity/Gynaecology/Gynaecology";
+import Infertility from "./Components/Maternity/Infertility/Infertility";
+import Laparoscopy from "./Components/Maternity/Laparoscopy/Laparoscopy";
+import Obstetrics from "./Components/Maternity/Obstetrics/Obstetrics";
 import About from "./Components/About/AboutUs/About";
+import EasyNav from "./Components/NavBar/EasyNav";
+import Facilities from "./Components/About/Facilities/Facilities";
 import Testimonial from "./Components/About/Testimonials/Testimonial";
 
 
