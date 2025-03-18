@@ -5,6 +5,9 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 import ScrollToTop from "./Components/Common/ScrollToTop";
 import Facilities from "./Components/About/Facilities/Facilities";
+import Expertise from "./Components/Home/Expertise/Expertise";
+import EasyNav from "./Components/NavBar/EasyNav";
+import CTA from "./Components/Home/CTA/CTA";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

@@ -18,9 +18,16 @@
 
 .navbar a.active:not(.navbar-brand)
 {
-  background-color: white;
+  background-color: #f1f8f3;
   color: #224433 !important;
   transition: .5s;
+}
+
+.nav-item.dropdown:has(.dropdown-item.active) > .dropdown-toggle
+{
+    background-color: #f1f8f3;
+    color: #224433 !important;
+    transition: .5s;
 }
 
 .navbar-toggler
@@ -48,8 +55,6 @@
         font-weight: 800;
     }
 }
-
-
 
 @media(max-width: 330px)  
 {

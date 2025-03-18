@@ -22,6 +22,46 @@
     }
 }
 
+.btn-appointment
+{
+    background-color: #458461;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btn-appointment:hover
+{
+    background-color: #65a27f;
+}
+
+.btn-know
+{
+    border: 1px solid #458461;
+    color: #458461;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btn-know:hover
+{
+    background-color: #458461;
+    color: white;
+    transition: 0.5s;
+}
+
+.btn-know:active
+{
+    background-color: #458461;
+    color: white;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
 /* @media (max-width: 500px) 
 {
     .cta-title

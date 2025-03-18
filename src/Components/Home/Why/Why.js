@@ -9,7 +9,7 @@ const Why = () => {
           {
            DataWhy.map(({id,numbers,title})=>(
                  <div className='col-sm-6 col-lg-3' key={id}>
-                     <div className='card text-center bg-success'>
+                     <div className='card text-center expertise-bg-img'>
                          <div className='card-body text-white'>
                              <h5 className='card-title fw-bold'>{numbers}</h5>
                              <p className='card-text fw-semibold'>{title}</p>

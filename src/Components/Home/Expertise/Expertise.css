@@ -1,4 +1,4 @@
-.home-img
+.expertise-img
 {
     height: 300px;
 }
@@ -20,11 +20,11 @@
 
 .border-img
 {
-    border-color: green !important;
+    border-color: #458461 !important;
 }
 
 .expertise-bg-img
 {
-    background-color: green !important;
-    background-color: var(--green-bg, green);
+    background-color: #458461 !important;
+    background-color: var(--green-bg, #458461);
 }

@@ -5,7 +5,7 @@ const Department = ({title,data}) => {
             <div className='row gap-5 justify-content-center gx-0'>
              {
                 data.map(({id,image,title,subTitle}) =>
-                    <div className='col-sm-4 col-md-3 treatments-border' key={id}>
+                    <div className='col-sm-4 col-md-3 department-border' key={id}>
                         <LazyLoadImage src={image} alt={title} className='w-100 mb-2' effect="blur" threshold={200}/>
                         <div className='card-body'>
                             <p className='card-title fw-bold fs-5 text-center'>{title}</p>
