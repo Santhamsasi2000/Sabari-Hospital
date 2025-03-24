@@ -17,6 +17,14 @@ body
   color: #458461;
 }
 
+@media (max-width: 500px)
+{
+  .title
+  {
+    font-size: 20px;
+  }
+}
+
 .justify-text
 {
   text-align: justify;
@@ -25,6 +33,6 @@ body
 .department-border
 {
   border: 3px solid #32694c;
-  padding: 5px;
+  padding: 10px;
   border-radius: 3px;
 }
